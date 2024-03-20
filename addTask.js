@@ -6,10 +6,10 @@ const levels = {
     h: "hard"
 }
 
-const taskName = "5. Longest Palindromic Substring";
-const funcName = "longestPalindrome";
-const level = levels["m"];
-const taskUrl = "https://leetcode.com/problems/longest-palindromic-substring/description/";
+const taskName = "14. Longest Common Prefix";
+const funcName = "longestCommonPrefix";
+const level = levels["e"];
+const taskUrl = "https://leetcode.com/problems/longest-common-prefix/description/";
 
 const defaultContent = `import checkSolution from "../checkSolution.js";
 
@@ -18,7 +18,7 @@ const ${funcName} = (params) => {
 };
 
 checkSolution(
-    [[1, 8, 6, 2, 5, 4, 8, 3, 7], [1, 1]],
+    [[], []],
     [49, 1],
     ${funcName}
 );

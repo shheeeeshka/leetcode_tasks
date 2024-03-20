@@ -11,7 +11,7 @@ const checkSolution = async (cases = [], answers = [], f) => {
         if (rs === as) {
             console.log(`Test ${i + 1} passed\nTime: ${dIMs} ms\n`);
         } else {
-            console.log(`Test ${i + 1} failed\nExpected ${typeof answers[i]} ${as}\nGot ${typeof r} ${rs}\nTime: ${dIMs} ms\n`);
+            console.log(`Test ${i + 1} failed\nCase : ${cases[i]}\nExpected : ${typeof answers[i]} ${as}\nGot : ${rs} of type ${typeof r}\nTime : ${dIMs} ms\n`);
         }
     }
 }
