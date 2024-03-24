@@ -6,10 +6,10 @@ const levels = {
     h: "hard"
 }
 
-const taskName = "14. Longest Common Prefix";
-const funcName = "longestCommonPrefix";
+const taskName = "231. Power of Two";
+const funcName = "isPowerOfTwo";
 const level = levels["e"];
-const taskUrl = "https://leetcode.com/problems/longest-common-prefix/description/";
+const taskUrl = "https://leetcode.com/problems/power-of-two/description/";
 
 const defaultContent = `import checkSolution from "../checkSolution.js";
 
